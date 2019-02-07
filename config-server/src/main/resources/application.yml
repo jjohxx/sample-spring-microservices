@@ -7,3 +7,5 @@ cloud:
    config:
       server:
          native:
+            searchLocations: [classpath:/, classpath:/config, classpath:/config/licensingservice, classpath:/config/licensingservice/default]
+
